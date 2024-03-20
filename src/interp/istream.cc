@@ -485,6 +485,7 @@ Instr Istream::Read(Offset* offset) const {
 
     case Opcode::Select:
     case Opcode::SelectT:
+    case Opcode::I32MulAdd:
     case Opcode::F32X4RelaxedMadd:
     case Opcode::F32X4RelaxedNmadd:
     case Opcode::F64X2RelaxedMadd:

@@ -1218,6 +1218,14 @@ RunResult Thread::StepInternal(Trap::Ptr* out_trap) {
       break;
     }
 
+    case O::I32MulAdd: {
+      auto x = Pop<u32>();
+      auto y = Pop<u32>();
+      auto z = Pop<u32>();
+      Push((x * y) + z);
+      break;
+    }
+
     case O::LocalGet:
       // TODO: need to mark whether this is a ref.
       Push(Pick(instr.imm_u32));

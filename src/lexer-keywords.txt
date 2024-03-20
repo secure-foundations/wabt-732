@@ -290,6 +290,7 @@ i32.load, TokenType::Load, Opcode::I32Load
 i32.lt_s, TokenType::Compare, Opcode::I32LtS
 i32.lt_u, TokenType::Compare, Opcode::I32LtU
 i32.mul, TokenType::Binary, Opcode::I32Mul
+i32.mul_add, TokenType::Ternary, Opcode::MulAdd
 i32.ne, TokenType::Compare, Opcode::I32Ne
 i32.or, TokenType::Binary, Opcode::I32Or
 i32.popcnt, TokenType::Unary, Opcode::I32Popcnt
