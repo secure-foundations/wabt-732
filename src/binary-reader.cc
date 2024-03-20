@@ -1332,6 +1332,7 @@ Result BinaryReader::ReadInstructions(Offset end_offset, const char* context) {
         CALLBACK0(OnOpcodeBare);
         break;
 
+      case Opcode::I32MulAdd:
       case Opcode::V128BitSelect:
       case Opcode::F32X4RelaxedMadd:
       case Opcode::F32X4RelaxedNmadd:

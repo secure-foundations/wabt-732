@@ -711,7 +711,7 @@ Perfect_Hash::InWordSet (const char *str, size_t len)
 #line 201 "src/lexer-keywords.txt"
       {"i16x8.ge_u", TokenType::Compare, Opcode::I16X8GeU},
 #line 293 "src/lexer-keywords.txt"
-      {"i32.mul_add", TokenType::Ternary, Opcode::MulAdd},
+      {"i32.mul_add", TokenType::Ternary, Opcode::I32MulAdd},
 #line 205 "src/lexer-keywords.txt"
       {"i16x8.le_u", TokenType::Compare, Opcode::I16X8LeU},
       {""},
